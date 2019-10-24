@@ -3,18 +3,28 @@ import './App.css';
 import Header from './header';
 import Sidebar from './sidebar';
 import Introduction from './introduction';
+import About from './about';
+import Projects from './projects';
+import Graphics from './graphics';
+import Contact from './contact';
 import Footer from './footer';
 
 function App() {
     return (
         <div className="App">
             <Header></Header>
-            <div idName="content" className="site-content">
-                <main idName="main" className="site-main">
-                    <aside idName="sidebar">
+            <div id="content" className="site-content">
+                <main id="main" className="site-main">
+                    <aside id="sidebar">
                         <Sidebar></Sidebar>
                     </aside>
-                    <Introduction></Introduction>
+                    <div>
+                        <Introduction></Introduction>
+                        <About></About>
+                        <Projects></Projects>
+                        <Graphics></Graphics>
+                        <Contact></Contact>
+                    </div>
                 </main>
             </div>
             <Footer></Footer>
