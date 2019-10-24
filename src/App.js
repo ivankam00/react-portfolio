@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
-import Header from './header';
-import Sidebar from './sidebar';
-import Introduction from './introduction';
-import About from './about';
-import Projects from './projects';
-import Graphics from './graphics';
-import Contact from './contact';
-import Footer from './footer';
+import './styles/reset.css';
+import Header from './components/header';
+import Sidebar from './components/sidebar';
+import Introduction from './components/introduction';
+import About from './components/about';
+import Projects from './components/projects';
+import Graphics from './components/graphics';
+import Contact from './components/contact';
+import Footer from './components/footer';
 
 function App() {
     return (
