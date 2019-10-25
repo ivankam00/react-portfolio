@@ -13,9 +13,21 @@ export default class ImageInfoPopup extends Component {
     }
 
     render() {
+        const containerStyle = {
+            display: 'inline-flex',
+            verticalAlign: 'middle',
+            padding: '5px'
+        }
+
+        const buttonStyle = {
+            width: '250px',
+            height: '200px',
+            padding: '5px'
+        }
+
         return (
-            <div>
-                <button onClick={this.togglePopup.bind(this)} style={{width:'250px'}}>{this.props.image}</button>
+            <div style={containerStyle}>
+                <button onClick={this.togglePopup.bind(this)} style={buttonStyle}>{this.props.image}</button>
 
                 {this.state.showPopup ?
                     <div className='popup'>
