@@ -4,11 +4,11 @@ export default class Sidebar extends Component {
     constructor(props) { super(props) }
 
     render() {
-        const aboutImage = ("./images/img_13931.jpg")
+        const aboutImage = ("./images/flag.jpg")
 
         return (
             <section>
-                <h3>ABOUT MYSELF</h3>
+                <h2>ABOUT MYSELF</h2>
                 <div><img src={aboutImage} className="about-image" alt="Picture of Ivan" /></div>
                 <div>
                     <p>Currently being unemployed and looking for a job, I am developing my back-end coding skills, while at the same time,

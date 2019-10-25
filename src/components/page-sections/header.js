@@ -4,7 +4,7 @@ export default class Header extends Component {
     constructor(props) { super(props) }
 
     render() {
-        const banner = ("./images/img_15021.jpg") // Image below h1 tag
+        const banner = ("./images/pond.jpg") // Image below h1 tag
 
         return (
             <header className="App-header">

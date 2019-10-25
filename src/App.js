@@ -1,14 +1,21 @@
 import React from 'react';
+
+// Styles
 import './App.css';
 import './styles/reset.css';
-import Header from './components/header';
-import Sidebar from './components/sidebar';
-import Introduction from './components/introduction';
-import About from './components/about';
-import Projects from './components/projects';
-import Graphics from './components/graphics';
-import Contact from './components/contact';
-import Footer from './components/footer';
+import './styles/grid.css';
+import './styles/style.css';
+import './styles/responsive.css';
+
+// Page Sections
+import Header from './components/page-sections/header';
+import Sidebar from './components/page-sections/sidebar';
+import Introduction from './components/page-sections/introduction';
+import About from './components/page-sections/about';
+import Projects from './components/page-sections/projects';
+import Graphics from './components/page-sections/graphics';
+import Contact from './components/page-sections/contact';
+import Footer from './components/page-sections/footer';
 
 function App() {
     return (
