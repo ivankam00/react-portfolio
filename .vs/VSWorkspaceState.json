@@ -4,8 +4,11 @@
     "\\public",
     "\\public\\images",
     "\\src",
+    "\\src\\components",
+    "\\src\\components\\functions",
+    "\\src\\components\\page-sections",
     "\\src\\styles"
   ],
-  "SelectedNode": "\\src\\App.test.js",
+  "SelectedNode": "\\src\\components\\page-sections\\introduction.js",
   "PreviewInSolutionExplorer": false
 }
