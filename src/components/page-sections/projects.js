@@ -28,12 +28,23 @@ export default class Sidebar extends Component {
                             back-end applications in the admin dashboard.</p>}
                     />
                     <ImageInfo
+                        image={<img src="./images/anagram_solar.jpg" alt="Anagram Solar" />}
+                        title="Anagram Solar Website"
+                        subtitle={<span>Built in May 2018 for URL <a href="https://anagramsolar.com/" target="_blank">https://anagramsolar.com/</a></span>}
+                        description={<p>Tasked with adding the client's website into FCQNS.Tech's Solar Store Network platform, while ensure
+                            no security or functionality issues occur, I made an exact duplication of their website. This method made it
+                            easier to not only get them on the platform quicker, but also ensured that knew that the applications and
+                            features running on their website did not pose any security risks on our hosting server. I put a lot of hours
+                            on the landing page to ensure that all the graphics and animation worked exactly like their current website.</p>}
+                    />
+                    <ImageInfo
                         image={<img src="./images/lumenz.jpg" alt="Lumenz" />}
                         title="Lumenz Website"
                         subtitle={<span>Built in June 2018 for URL <a href="https://lumenz.ca" target="_blank">https://lumenz.ca</a></span>}
-                        description={<p>I was tasked to make an exact duplicate of the client's existing website and rebuild it so that there
-                            are no security or functionality issues when porting them into the Solar Store Network service offered by
-                            FCQNS.Tech Inc.</p>}
+                        description={<p>Tasked with adding the client's website into FCQNS.Tech's Solar Store Network platform, while ensure
+                            no security or functionality issues occur, I made an exact duplication of their website. This method made it
+                            easier to not only get them on the platform quicker, but also ensured that knew that the applications and features
+                            running on their website did not pose any security risks on our hosting server.</p>}
                     />
                     <ImageInfo
                         image={<img src="./images/contractors_contact.jpg" alt="ContractorsContact" />}
