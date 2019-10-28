@@ -44,6 +44,20 @@ export default class Sidebar extends Component {
                             custom back-end coding, to develop an online platform where solar store retailers on the FCQNS.Tech Solar Store
                             Network could post installation jobs for licensed solar installation contractors.</p>}
                     />
+                    <ImageInfo
+                        image={<img src="./images/quest_theatre.png" alt="Quest Theatre" />}
+                        title="Quest Theatre Website"
+                        subtitle={<span>Built in January 2017 for URL <a href="https://www.questtheatre.org/" target="_blank">https://www.questtheatre.org/</a></span>}
+                        description={<p>With the client wanting to switch from WordPress to SquareSpace, to make it easier for them to
+                            update content without needing to know website coding, I was scouted by my graphic designer friend to help her
+                            build the website. I was provided all the graphics and content needed to be transferred; as well as, the starting
+                            template to build the website. Since this was the first time I built as website using SquareSpace, I found that
+                            it was more difficult to imploy your own custom features than in WordPress. After completing the website, and
+                            helping the client to redirect the DNS and URL to the new website IP, I taught them how to navigate and update
+                            the content of their website. As an extra, free of charge service, I provide them with a documentation manual
+                            of how to update and maintain their website. They were very happy with my work and the service that I provided
+                            them.</p>}
+                    />
                 </div>
             </section> 
         )
