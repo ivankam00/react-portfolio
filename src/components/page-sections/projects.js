@@ -28,7 +28,7 @@ export default class Sidebar extends Component {
                             back-end applications in the admin dashboard.</p>}
                     />
                     <ImageInfo
-                        image={<img src="./images/anagram_solar.jpg" alt="Anagram Solar" />}
+                        image={<img src="./images/anagram_solar.png" alt="Anagram Solar" />}
                         title="Anagram Solar Website"
                         subtitle={<span>Built in May 2018 for URL <a href="https://anagramsolar.com/" target="_blank">https://anagramsolar.com/</a></span>}
                         description={<p>Tasked with adding the client's website into FCQNS.Tech's Solar Store Network platform, while ensure

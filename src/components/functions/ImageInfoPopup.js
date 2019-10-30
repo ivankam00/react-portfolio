@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import { Scrollbars } from 'react-custom-scrollbars';
 
-export default class ImageInfoPopup extends Component {
+
+export default class ImageInfoPopup extends Component {	
     constructor(props) {
         super(props);
         this.state = { showPopup: false };
@@ -31,20 +33,22 @@ export default class ImageInfoPopup extends Component {
 
                 {this.state.showPopup ?
                     <div className='popup'>
-                        <div className='popup\_inner'>
-                            <div className="col12-m-6">
-                                <section>
-                                    {this.props.image}
-                                </section>
-                            </div>
-                            <div className="col12-m-6">
-                                <section>
-                                    <h1>{this.props.title}</h1>
-                                    <p><b>{this.props.subtitle}</b></p>
-                                    {this.props.description}
-                                    <button onClick={this.togglePopup.bind(this)}>CLOSE</button>
-                                </section>
-                            </div>
+                        <div className='lightbox'>
+							<Scrollbars>
+								<div className="col12-m-6">
+									<section>
+										{this.props.image}
+									</section>
+								</div>
+								<div className="col12-m-6">
+									<section>
+										<h1>{this.props.title}</h1>
+										<p><b>{this.props.subtitle}</b></p>
+										{this.props.description}
+										<button onClick={this.togglePopup.bind(this)}>CLOSE</button>
+									</section>
+								</div>
+							 </Scrollbars>
                         </div>
                     </div>
                     : null

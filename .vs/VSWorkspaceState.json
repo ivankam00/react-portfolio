@@ -9,6 +9,6 @@
     "\\src\\components\\page-sections",
     "\\src\\styles"
   ],
-  "SelectedNode": "\\public\\images\\quest_theatre.png",
+  "SelectedNode": "\\src\\components\\functions\\ImageInfoPopup.js",
   "PreviewInSolutionExplorer": false
 }
