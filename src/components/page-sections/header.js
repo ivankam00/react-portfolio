@@ -7,7 +7,7 @@ export default class Header extends Component {
         const banner = ("./images/pond.jpg") // Image below h1 tag
 
         return (
-            <header className="App-header">
+            <header>
                 <h1>Ivan's Web Development Portfolio</h1>
                 <img src={banner} className="header-banner" alt="Banner" />
             </header>

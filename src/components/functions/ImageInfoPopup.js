@@ -29,23 +29,25 @@ export default class ImageInfoPopup extends Component {
 
         return (
             <div style={containerStyle}>
-                <button onClick={this.togglePopup.bind(this)} style={buttonStyle}>{this.props.image}</button>
+                <button onClick={this.togglePopup.bind(this)} style={buttonStyle}>
+                    <img src={this.props.URL} style={{maxWidth:'100%',maxHeight:'100%'}} alt={this.props.title} />
+                </button>
 
                 {this.state.showPopup ?
                     <div className='popup'>
                         <div className='lightbox'>
-							<Scrollbars>
-								<div className="col12-m-6">
+							<Scrollbars autoHide universal>
+								<div className="col12-td-6 col12-m-12">
 									<section>
-										{this.props.image}
+                                        <img src={this.props.URL} style={{maxWidth:'100%',maxHeight:'100%'}} alt={this.props.title} />
 									</section>
 								</div>
-								<div className="col12-m-6">
+								<div className="col12-td-6 col12-m-12">
 									<section>
 										<h1>{this.props.title}</h1>
 										<p><b>{this.props.subtitle}</b></p>
-										{this.props.description}
-										<button onClick={this.togglePopup.bind(this)}>CLOSE</button>
+                                        {this.props.description}
+                                        <button onClick={this.togglePopup.bind(this)}>CLOSE</button>
 									</section>
 								</div>
 							 </Scrollbars>

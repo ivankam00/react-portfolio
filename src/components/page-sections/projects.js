@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ImageInfo from '../../components/functions/ImageInfoPopup'; 
+import ImageInfo from '../../components/functions/ImageInfoPopup';
 
 export default class Sidebar extends Component {
     constructor(props) {
@@ -19,7 +19,7 @@ export default class Sidebar extends Component {
                 <h2>Website Projects</h2>
                 <div className="row">
                     <ImageInfo
-                        image={<img src="./images/fcqns.jpg" alt="FCQNS.Tech Inc." />}
+                        URL="./images/fcqns.jpg"
                         title="FCQNS.Tech Website"
                         subtitle={<span>Built in November 2017 for URL <a href="https://fcqns.tech" target="_blank">https://fcqns.tech</a></span>}
                         description={<p>When I was working at FCQNS.Tech Inc., I was placed in charge of coding the front-end layout of the
@@ -28,7 +28,7 @@ export default class Sidebar extends Component {
                             back-end applications in the admin dashboard.</p>}
                     />
                     <ImageInfo
-                        image={<img src="./images/anagram_solar.png" alt="Anagram Solar" />}
+                        URL="./images/anagram_solar.png"
                         title="Anagram Solar Website"
                         subtitle={<span>Built in May 2018 for URL <a href="https://anagramsolar.com/" target="_blank">https://anagramsolar.com/</a></span>}
                         description={<p>Tasked with adding the client's website into FCQNS.Tech's Solar Store Network platform, while ensure
@@ -38,7 +38,7 @@ export default class Sidebar extends Component {
                             on the landing page to ensure that all the graphics and animation worked exactly like their current website.</p>}
                     />
                     <ImageInfo
-                        image={<img src="./images/lumenz.jpg" alt="Lumenz" />}
+                        URL="./images/lumenz.jpg"
                         title="Lumenz Website"
                         subtitle={<span>Built in June 2018 for URL <a href="https://lumenz.ca" target="_blank">https://lumenz.ca</a></span>}
                         description={<p>Tasked with adding the client's website into FCQNS.Tech's Solar Store Network platform, while ensure
@@ -47,7 +47,7 @@ export default class Sidebar extends Component {
                             running on their website did not pose any security risks on our hosting server.</p>}
                     />
                     <ImageInfo
-                        image={<img src="./images/contractors_contact.jpg" alt="ContractorsContact" />}
+                        URL="./images/contractors_contact.jpg"
                         title="ContractorContacts Website"
                         subtitle={<span>Built in August 2018 for URL <a href="https://contractorscontact.com" target="_blank">https://contractorscontact.com</a></span>}
                         description={<p>Tasked with building a platform to contract out solar panel installation that cannot be handle by
@@ -56,7 +56,7 @@ export default class Sidebar extends Component {
                             Network could post installation jobs for licensed solar installation contractors.</p>}
                     />
                     <ImageInfo
-                        image={<img src="./images/quest_theatre.png" alt="Quest Theatre" />}
+                        URL="./images/quest_theatre.png"
                         title="Quest Theatre Website"
                         subtitle={<span>Built in January 2017 for URL <a href="https://www.questtheatre.org/" target="_blank">https://www.questtheatre.org/</a></span>}
                         description={<p>With the client wanting to switch from WordPress to SquareSpace, to make it easier for them to
@@ -69,7 +69,16 @@ export default class Sidebar extends Component {
                             of how to update and maintain their website. They were very happy with my work and the service that I provided
                             them.</p>}
                     />
+                    <ImageInfo
+                        URL="./images/fresh_start_capital.png"
+                        title="Fresh Start Capital Website"
+                        subtitle={<span>Built in April 2014 for URL <a href="https://freshstartcapital.ca" target="_blank">https://freshstartcapital.ca</a></span>}
+                        description={<p>Tasked to build a platform where our company could connect people with more financing options, regardless
+                            of their credit score or financial situation. This website employs many forms requesting simple information depending
+                            on what the client is seeking to finance.</p>}
+                    />
                 </div>
+
             </section> 
         )
     }
